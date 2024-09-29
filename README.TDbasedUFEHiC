@@ -31,8 +31,10 @@ Files: it generated various files in the current directory
  index_l_1.csv: List of selected bins. Since only numbers are listed, it must be used with bed file in file_bed (only when sel=T)
 
 Usage:
-Place 41586_2020_2493_MOESM12_ESM.txt in the current directory and
+Place 41586_2020_2493_MOESM12_ESM.txt (*) in the current directory and
 %  source("TDbasedUFE_HiC.R")
 %  result <- TDbasedUFE_HiC(file_Matrix,file_bed)
 
 Good luck!
+
+(*) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7410828/bin/41586_2020_2493_MOESM12_ESM.txt
