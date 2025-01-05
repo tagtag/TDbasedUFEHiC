@@ -1,5 +1,6 @@
 # TDbasedUFEHiC
 TDbasedUFEHiC: R function that can select optimal bin sizes in Hi-C data
+
 Novel AI-powered computational method using tensor decomposition can discover the common optimal bin sizes when integrating multiple Hi-C datasets
 Y-h Taguchi, Turki Turki
 bioRxiv 2024.09.29.615651; doi: https://doi.org/10.1101/2024.09.29.615651
