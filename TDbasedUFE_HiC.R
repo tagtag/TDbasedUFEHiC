@@ -62,7 +62,7 @@ TDbasedUFE_HiC <- function(file_Matrix,file_bed,l_list=c(1),func_list=list(CTCF=
   COR <- list(CTCF=rep(list(list(Pearson=list(NA),Spearman=list(NA))),max(l_list)+1),
               PLS=rep(list(list(Pearson=list(NA),Spearman=list(NA))),max(l_list)+1),
               pELS=rep(list(list(Pearson=list(NA),Spearman=list(NA))),max(l_list)+1),
-              dELSF=rep(list(list(Pearson=list(NA),Spearman=list(NA))),max(l_list)+1)
+              dELS=rep(list(list(Pearson=list(NA),Spearman=list(NA))),max(l_list)+1)
               )
   print(str(COR))
   for (logic in 1:4)
