@@ -54,6 +54,8 @@ P_*: R object that includes P-values attributed to regions.
 
 *: corresponds to the contents of l_list.
 
+MEANSD: MEAN vs SD ration (Table 6), In this case, only one profile, it gives NA.
+
 That's all.
 
 
